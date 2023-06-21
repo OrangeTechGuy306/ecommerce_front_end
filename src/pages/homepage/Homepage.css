@@ -1,0 +1,103 @@
+
+.searchBarContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin: 20px 0px;
+}
+
+.formInfo h1{
+    font-size: 60px;
+    text-align: center;
+    color: rgb(197, 4, 94);
+}
+.formInfo h3{
+    font-size: 30px;
+    text-align: center;
+}
+
+
+.searchInput{
+    width: 700px;
+    outline: none;
+    border: .5px solid rgb(197, 4, 94);
+    background: transparent;
+    height: 50px;
+    border-radius: 15px 0px 0px 15px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+    padding: 0px 20px;
+}
+
+.searchBtn{
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+    outline: none;
+    border: none;
+    background: rgb(197, 4, 94);
+    padding: 10px 20px;
+    color: white;
+    height: 50px;
+    cursor: pointer;
+    width: 200px;
+    border-radius: 0px 15px 15px 0px;
+    
+}
+
+
+.bannerImg{
+    width: 1000px;
+}
+
+.homeFlyerContainer{
+    width: 95%;
+    margin: 0 auto;
+    min-height: 50vh;
+}
+
+.featuresContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.featureItems{
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 10px 15px;
+    gap: 15px;
+    background: rgb(255, 226, 239);
+    /* box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2); */
+}
+
+
+.cardController{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.cardController h1{
+    margin: 20px 0px;
+    background: rgb(4, 88, 224);
+    color: white;
+    padding: 10px 20px;
+}
+
+.adsImg{
+    width: 500px;
+}
+
+.adsContainer{
+    margin: 100px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 50px;
+}

@@ -1,0 +1,56 @@
+
+
+.navContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px 50px;
+    background: rgb(255, 0, 119);
+}
+
+.logoLink{
+    background: rgb(165, 4, 80);
+    padding: 10px 20px;
+    color: white;
+    font-weight: bold;
+}
+
+.navLinks{
+    color: white;
+}
+
+.cart{
+    position: relative;
+}
+
+.cartItemNum{
+    position: absolute;
+    top: -10px;
+    left: 20px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: red;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-wrap: wrap;
+    color: white;
+}
+
+.navItemContainer ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.cartContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
